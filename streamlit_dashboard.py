@@ -1,4 +1,4 @@
-import streamlit as st
+"sales_data 5.csv""sales_data 5.csv"import streamlit as st
 import pandas as pd
 import plotly.express as px
 # ... (Gardez les autres imports si nécessaires)
@@ -8,7 +8,7 @@ st.set_page_config(layout="wide")
 
 # --- ÉTAPE 1 : CHARGEMENT ET PRÉPARATION DES DONNÉES ---
 try:
-    df = pd.read_csv("sales_data 6.csv")
+    df = pd.read_csv("sales_data 5.csv")
     df['Sale_Date'] = pd.to_datetime(df['Sale_Date'])
 except FileNotFoundError:
     st.error("ERREUR : Le fichier 'sales_data 6.csv' est introuvable. Assurez-vous qu'il est sur GitHub.")
